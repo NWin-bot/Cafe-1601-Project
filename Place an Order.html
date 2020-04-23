@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+
+	/* Background Image Code Starts */
+	body{
+		background-image: url(Images/food3.jpg);
+		background-attachment:fixed;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	/* Background Image Code Ends */
+	
+	/* Navigation Bar Code Starts */
+.container {
+    overflow: hidden;
+    background-color:white;
+    font-family: Rockwell Extra Bold;
+   }
+
+.container a {
+    float: left;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    padding: 14px 70px;
+    text-decoration: none;
+             }
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+  }
+
+.dropdown .dropbtn {
+    font-size: 20px;  
+font-family: Rockwell Extra Bold;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+}
+
+.container a:hover, .dropdown:hover .dropbtn {
+    background-color:#f2ddc4;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #f2ddc4;
+  }
+
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
+	/* Navigation Bar Code Ends */
+	
+	/*Order Form Code Starts */
+  
+ * {
+     font-family: Rockwell Extra Bold;
+   }
+   input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+   }
+   input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+   }
+   input[type=reset] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+   }
+   
+   input[type=submit]:hover {
+    background-color: #45a049;
+   }
+tr:hover{background-color:#e8b41b}
+	/* Order Form Code Ends */
+
+</style>
+<!--Script for Back-to-Top Button-->
+	<script>
+		function topFunction() {
+		document.body.scrollTop = 0;
+		document.documentElement.scrollTop = 0;
+		}
+	</script>
+
+<title> MCC PLACE ORDER </title>
+</head>
+
+<body>
+
+<!-- Code for MCC Logo Starts -->
+<p Align= "Center"> <img src= "Images/logo.png" alt="Mc INROY CORNER CAFE" width= "340" 
+height= "170"> </p>
+<!-- Code for MCC Logo Ends -->
+
+<br> </br>
+
+<!-- Navigation Bar Code for Labels Starts -->
+<div class="container">
+  <a href="index.html">HOME</a>
+  <a href="About Us.html">ABOUT US</a>
+  <div class="dropdown">
+    <button class="dropbtn">MENUS</button>
+    <div class="dropdown-content">
+      <a href="Current Menus.html">CURRENT DAY'S MENU</a>
+      <a href="Tomorrow Menus.html">TOMORROW'S MENU</a>
+    </div>
+  </div> 
+  <a href="Place an Order.html">PLACE AN ORDER</a>
+  <a href="FAQS.html">FAQs</a>
+  <a href="Contact Us1.html">CONTACT US</a>
+</div>
+<!-- Navigation Bar Code for Labels Ends -->
+</br></br>
+</br>
+</br>
+<!-- Right Padding Code Starts -->
+<div style="background-color:#FFFFF0;color:black;padding:20px;margin:1cm 2cm 7cm 15cm;class="bordered"> 
+
+<br> </br> 
+
+<!-- Heading 1 Code Starts -->
+<h1 Align= "Center"> <font color= "3D9B3D"> MCC PLACE AN ORDER </font> </h1>
+<!-- Heading 1 Code Ends -->
+
+<br> </br>
+
+<!-- Order Form Code Starts -->
+<center>
+   <form method="POST" target="_blank" action="Orderpage.html">
+    <table width="450px">
+     <tr>
+      <td valign="top">
+       <label for="first_name"> <b> First Name </b>
+		<br/>
+		Example : Johnny
+	   </label>
+      </td>
+      <td valign="top">
+       <input  type="text" name="first_name" maxlength="50" size="30" required>
+      </td>
+     </tr>
+     <tr>
+      <td valign="top"">
+       <label for="last_name"> <b> Last Name </b>
+	   <br/>
+		Example : Johnson
+	   </label>
+      </td>
+      <td valign="top">
+       <input  type="text" name="last_name" maxlength="50" size="30" required>
+      </td>
+     </tr>
+     <tr>
+      <td valign="top">
+       <label for="email"> <b> Email Address </b>
+		<br/>
+		Example : redboy5@emailserver.com
+	   </label>
+      </td>
+      <td valign="top">
+       <input  type="text" name="email" maxlength="80" size="30" required>
+      </td>
+     </tr>
+     <tr>
+      <td valign="top">
+       <label for="telephone"> <b> Telephone Number </b>
+	   <br/>
+	   Example: 868-666-6666
+	   </label>
+      </td>
+      <td valign="top">
+       <input  type="text" name="telephone" maxlength="30" size="30" required>
+      </td>
+     </tr>
+     <tr>
+      <td valign="top">
+                                           <br> <br/>
+                                           (Please choose a meal from the menu)
+                                           <br/>
+                                           <br/>
+       <label for="orders"> <b> Food Order </b> </label>
+      </td>
+      <td valign="top">
+        <input type="checkbox" name="Order1" value="Menu"> BBQ or Grill Chicken and Chips $35TT <br>
+		<br/>
+		<input type="checkbox" name="Order2" value="Menu"> Fish and Chips $45TT <br>
+		<br/>
+		<input type="checkbox" name="Order3" value="Menu"> Cheeseburger with a side of Fries $25TT <br>
+		<br/>
+		<input type="checkbox" name="Order4" value="Menu"> Vegan burger with a side of Fries $25TT <br>
+		<br/>
+		<input type="checkbox" name="Order5" value="Menu"> Fried Rice, BBQ or Grill Chicken, Fresh Salad and Potato or Macaroni Salad $40TT <br>
+		<br/>
+		<input type="checkbox" name="Order6" value="Menu"> Grill Cheese Sandwich with Turkey or Ham $20TT <br>
+		</br> 
+		<input type="checkbox" name="Order7" value="Menu"> Peleau $20TT <br>
+		</br>
+		<input type="checkbox" name="Order8" value="Menu"> White Rice, Cornpie, Pigeon Peas and Stew or BBQ Chicken $45TT <br>
+      </td>
+     </tr>
+	 <tr>
+      <td valign="top">
+                                            <br> <br/>
+                                           (Please choose a drink from the menu)
+                                           <br/>
+                                           <br/>
+       <label for="orders"> <b> Drink Order </b> </label>
+      </td>
+      <td valign="top">
+        <input type="checkbox" name="Order1" value="Menu"> Water $6TT <br>
+		<br/>
+		<input type="checkbox" name="Order2" value="Menu"> Fruit Punch $7TT <br>
+		<br/>
+		<input type="checkbox" name="Order3" value="Menu"> Orange Juice $7TT <br>
+		<br/>
+		<input type="checkbox" name="Order4" value="Menu"> Sorrel Juice $10TT <br>
+		<br/>
+		<input type="checkbox" name="Order5" value="Menu"> Softdrinks $7TT <br>
+		<br/>
+		<input type="checkbox" name="Order6" value="Menu"> Coffee $15TT <br>
+		</br> 
+		<input type="checkbox" name="Order7" value="Menu"> Tea $12TT <br>
+      </td>
+     </tr>
+     <tr>
+      <td colspan="2" style="text-align:center">
+	<a href="Order Completion.html" target="_blank">
+       <input type="submit" value="Submit">  </a> 
+      </td>
+     </tr>
+    </table>
+   </form>
+  </center>
+<!-- Order Form Code Ends -->
+
+<!-- Left Padding Code Starts   -->
+<div style="background-color:#FFFFF0;color:black;padding:60px;position: absolute; left: 120px;top: 405px;class="bordered"> 
+
+<!-- Image Code Starts -->
+<p Align= "Center"> <img src="Images/animated chef.jpg" alt="Chef" style="float:right;width:200px;height:440px;"> </p>
+<!-- Image Code Ends -->
+
+</div>
+<!-- Left Padding Code Ends -->
+
+<br> </br>
+<br> </br>
+</br>
+</br>
+</br>
+
+<!-- Back to Top Image Code Starts -->
+<img src="Images/Top.png" onClick="topFunction()" width=“20” height="32" alt="Back to Top"/>
+<!-- Back to Top Image Code Ends -->
+
+</div>
+<!-- Right Padding Code Ends-->
+</body>
+
+</html>
